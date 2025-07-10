@@ -39,3 +39,7 @@ app.post('/chat', async (req, res) => {
 app.listen(port, () => {
   console.log(`Annaya is ready at port ${port}`);
 });
+
+app.get("/", (req, res) => {
+  res.send("Vijay Annaya is online and waiting for Chinnu! 💚");
+});
